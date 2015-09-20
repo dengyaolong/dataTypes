@@ -12,7 +12,7 @@ npm i primitive-datatypes
 get the Primitive Data Types, `result` in `["string", "number", "boolean", "null", "undefined", "symbol", "object"]`
 else return ` object`
 
-example
+####example
 
 ``` 
 var DataTypes = require('DataTypes');
@@ -27,7 +27,8 @@ console.log(DataTypes.getPrimitiveDataType({"obj": "DataTypes"});
 ### is?
 
 check the obj is the dataType or not
-example
+
+####example
 ```
 var DataTypes = require('DataTypes');
 

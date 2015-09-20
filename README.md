@@ -7,7 +7,7 @@ npm i primitive-datatypes
 
 ##API 
 
-1. getPrimitiveDataType(obj)
+### getPrimitiveDataType(obj)
 
 get the Primitive Data Types, `result` in `["string", "number", "boolean", "null", "undefined", "symbol", "object"]`
 else return ` object`
@@ -24,7 +24,7 @@ console.log(DataTypes.getPrimitiveDataType({"obj": "DataTypes"});
 ```
 
 
-2. is?
+### is?
 
 check the obj is the dataType or not
 example

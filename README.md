@@ -1,29 +1,31 @@
 # dataTypes
 
-## Primitive Data Types
+##Install
+npm i primitive-datatypes 
 
-```API getPrimitiveDataType(obj)
-var DataTypes = require('DataTypes');
-...
+##API 
+1. getPrimitiveDataType(obj)
 
-var result = DataType.getPrimitiveDataType(obj);
-
-```
-
-`result` in `["string", "number", "boolean", "null", "undefined", "symbol", "object"]`
+get the Primitive Data Types, `result` in `["string", "number", "boolean", "null", "undefined", "symbol", "object"]`
 else return ` object`
 
+example
 
-```example
+``` 
+var DataTypes = require('DataTypes');
+var result = DataType.getPrimitiveDataType(obj);
 console.log(DataType.getPrimitiveDataType(true));
 // => 'boolean'
 console.log(DataTypes.getPrimitiveDataType({"obj": "DataTypes"});
 // => 'object'
 ```
 
-## Primitive Wrapper Objects
 
-```API & example
+2. is?
+
+check the obj is the dataType or not
+example
+```
 var DataTypes = require('DataTypes');
 
 DataTypes.isObject({"obj": 123});

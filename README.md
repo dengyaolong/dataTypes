@@ -1,9 +1,12 @@
 # dataTypes
 
 ##Install
+```
 npm i primitive-datatypes 
+```
 
 ##API 
+
 1. getPrimitiveDataType(obj)
 
 get the Primitive Data Types, `result` in `["string", "number", "boolean", "null", "undefined", "symbol", "object"]`

@@ -1,0 +1,27 @@
+{
+  "name": "primitive-datatypes",
+  "version": "1.0.1",
+  "description": "check the datatypes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dengyaolong/dataTypes.git"
+  },
+  "keywords": [
+    "dataTypes",
+    "primitive"
+  ],
+  "author": "dengyaolong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dengyaolong/dataTypes/issues"
+  },
+  "homepage": "https://github.com/dengyaolong/dataTypes#readme",
+  "dependencies": {
+     "assert": "^1.3.0",
+     "mocha": "^2.3.2"
+  }
+}
